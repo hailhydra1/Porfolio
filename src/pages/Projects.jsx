@@ -45,7 +45,8 @@ const Projects = () => {
               imgPath={kickstart}
               isBlog={false}
               title="UMotel"
-              description="https://github.com/hailhydra1/pranay-booking-app"
+              description="This Hotel Booking Platform utilizes a REST API built with Nodejs and Expressjs, allowing for easy CRUD operations on Hotel booking and addition from the admin panel. Multiple images and perks and pricing can be added at the time of creation of the hotel. Users can also see actual location of the website on google maps. The website uses MongoDB and AmazonS3 Buckets for the database."
+              ghLink="https://github.com/hailhydra1/pranay-booking-app"
             />
           </Col>
 
