@@ -50,6 +50,21 @@ const Projects = () => {
             />
           </Col>
 
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={kickstart}
+              isBlog={false}
+              title="DrawIt"
+              description="Real-time collaborative drawing board, developed with React, Socket.IO, and Graph.js, empowers users to create or join sessions to collaboratively draw, offering seamless synchronization of changes across all participants. Users can customize their brushes with various styles, sizes, and colors, while also engaging in real-time chat with other users. This innovative platform fosters creativity and collaboration, providing an immersive experience for artists and enthusiasts alike.
+
+
+
+
+              "
+              ghLink="https://github.com/hailhydra1/DrawIt"
+            />
+          </Col>  
+
           {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={pg}
