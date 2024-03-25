@@ -15,7 +15,7 @@ const ProjectCard = (props) => {
         alignContent: "space-between",
       }}
     >
-      {/* <Card.Img
+      <Card.Img
         variant="top"
         src={props.imgPath}
         alt="card-img"
@@ -25,7 +25,7 @@ const ProjectCard = (props) => {
           alignSelf: "flex-start",
           borderRadius: "10%",
         }}
-      /> */}
+      />
       <Card.Body
         style={{
           display: "flex",
