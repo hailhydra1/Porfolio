@@ -7,6 +7,7 @@ import memories from "../assets/projects/memories.png"
 import hopsky from "../assets/projects/hopsky.png"
 import drawit from "../assets/projects/drawit.png"
 import discord from "../assets/projects/discord.png"
+import jandrishti from "../assets/projects/jandrishti.jpeg"
 
 const Projects = () => {
   return (
@@ -20,6 +21,16 @@ const Projects = () => {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={jandrishti}
+              isBlog={false}
+              title="Jandrishti"
+              description="A news sentiment analysis tool which performs sentiment anaylysis on latest news articles using BERT. It also
+              has a llm chatbot to interact with the articles which uses Tinylama model underneath."
+              ghLink="https://github.com/hailhydra1/JanDrishti"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={hopsky}
