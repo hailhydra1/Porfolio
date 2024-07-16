@@ -56,7 +56,7 @@ const About = () => {
                   <i>
                     <b className="yellow"> Web Technologies and Products, </b>
                     as well as exploring areas related to
-                    <b className="yellow"> Machin Learning.</b>
+                    <b className="yellow"> Machine Learning.</b>
                   </i>
                   <br />
                   
